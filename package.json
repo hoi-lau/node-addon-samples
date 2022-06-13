@@ -1,0 +1,16 @@
+{
+  "name": "node-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "test": "node test_tess.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
+}
